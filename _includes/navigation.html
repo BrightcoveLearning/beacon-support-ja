@@ -7,7 +7,7 @@
 							<option value="{{ site.url }}">{{ site.name }}</option>
 						{% endif %} {% endfor %}
 				</select>
-        <nav class="sidenav" id="side_nav">
+        <nav class="sidenav col-sm-9 col-md-9 col-lg-9" id="side_nav">
           {% for item in site.data.navigation %} {% if item.docs == nil %}
             <h5><a href="{{ item.url }}">{{ item.name }}</a></h5>
             {% else %}
